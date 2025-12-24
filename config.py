@@ -17,10 +17,10 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_DB = os.getenv("MONGO_DB", "")
+API_ID = os.getenv("API_ID", "34734487")
+API_HASH = os.getenv("API_HASH", "648191684a5c39cbc2827ea0d82bc382")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7776113950:AAFuWyGTv7vaz87t0d6vQi3JkJU1CL5KFXA")
+MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://luckykumar7004816_db_user:JDqDFZOt35wcxqkq@cluster0.urztudy.mongodb.net/?appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("-1006737662463", "").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "savefromrestricted")
 STRING = os.getenv("STRING", None) # optional
@@ -34,6 +34,7 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "100"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "1000"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/savefromrestricted") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/savefromrestricted")
+
 
 
 
